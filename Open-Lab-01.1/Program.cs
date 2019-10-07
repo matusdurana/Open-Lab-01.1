@@ -6,7 +6,18 @@ namespace Open_Lab_01._1
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            int a = 5;
+            int b = 25;
+            if (a + b < 10)
+            {
+                Console.WriteLine("This number is less then 10.");
+            }
+            else
+            {
+                Console.WriteLine("This number is greater or equal to 10.");
+            }
+
         }
+
     }
 }
